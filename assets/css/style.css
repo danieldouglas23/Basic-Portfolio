@@ -54,10 +54,9 @@ a {
 
 #middlecontainer1 {
     position: relative;
-    background: lightgrey;
-    border-top: 1px ##cccccc solid;
+    border-top: 1px #cccccc solid;
     height: 490px;
-    /* background-image: url("/assets/images/gravel.png") fixed center; */
+    background: url("../images/gravel.png") fixed center;
     
 }
 
@@ -104,4 +103,158 @@ footer {
     text-align: center;
     border-top: 7px #4aaaa5 solid;
     padding: 32px;
+}
+
+/* Portfolio */
+
+#headercontainer1p {
+    position: relative;
+    background: #ffffff;
+    height: 80px;
+}
+
+#headercontainer2p {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 80px;
+    background: #ffffff;
+}
+
+#nameboxp {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 215px;
+    padding: 7px;
+
+}
+
+#linksp { 
+    margin-top: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* a {
+    text-decoration: none;
+    color: #777777;
+    margin: 0px 10px;
+    font-size: 13px;
+} */
+
+#portfoliop {
+    border-right: 2px #777777 solid;
+    border-left: 2px #777777 solid;
+    padding: 0px 20px;
+}
+
+#middlecontainer1p {
+    position: relative;
+    border-top: 1px #cccccc solid;
+    height: 490px;
+    background: url("../images/gravel.png") fixed center;
+    
+}
+
+#middlecontainer2p {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+    background: #ffffff;
+    top: 40px;
+    border: 0.5px #dddddd solid;
+    
+}
+
+#portfoliohead {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    background: #ffffff;
+    color: #4aaaa5;
+    height: 80px;
+    width: 910px;
+    border-bottom: 2px lightgrey solid;
+    padding-top: 10px;
+    left: 25px;
+}
+
+/* Contact */
+
+#headercontainer1c {
+    position: relative;
+    background: #ffffff;
+    height: 80px;
+}
+
+#headercontainer2c {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 80px;
+    background: #ffffff;
+}
+
+#nameboxc {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 215px;
+    padding: 7px;
+
+}
+
+#linksc { 
+    margin-top: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* a {
+    text-decoration: none;
+    color: #777777;
+    margin: 0px 10px;
+    font-size: 13px;
+} */
+
+#portfolioc {
+    border-right: 2px #777777 solid;
+    border-left: 2px #777777 solid;
+    padding: 0px 20px;
+}
+
+#middlecontainer1c {
+    position: relative;
+    border-top: 1px #cccccc solid;
+    height: 490px;
+    background: url("../images/gravel.png") fixed center;
+    
+}
+
+#middlecontainer2c {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+    background: #ffffff;
+    top: 40px;
+    border: 0.5px #dddddd solid;
+    
+}
+
+#contacthead {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    background: #ffffff;
+    color: #4aaaa5;
+    height: 80px;
+    width: 910px;
+    border-bottom: 2px lightgrey solid;
+    padding-top: 10px;
+    left: 25px;
 }
