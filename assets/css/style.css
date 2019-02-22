@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#headercontainer1 {
+    position: relative;
+    background: #ffffff;
+    height: 80px;
+}
+
+#headercontainer2 {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 80px;
+    background: #ffffff;
+}
+
+#namebox {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 215px;
+    padding: 7px;
+
+}
+
+#links { 
+    margin-top: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+    margin: 0px 10px;
+    font-size: 13px;
+}
+
+#portfolio {
+    border-right: 2px #777777 solid;
+    border-left: 2px #777777 solid;
+    padding: 0px 20px;
+}
+
+#middlecontainer1 {
+    position: relative;
+    background: lightgrey;
+    border-top: 1px ##cccccc solid;
+    height: 600px;
+    /* background-image: url("/assets/images/gravel.png") fixed center; */
+    
+}
+
+#middlecontainer2 {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 420px;
+    background: #ffffff;
+    top: 40px;
+    border: 0.5px #dddddd solid;
+    
+}
+
+#aboutme {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    background: #ffffff;
+    color: #4aaaa5;
+    height: 80px;
+    width: 910px;
+    border-bottom: 2px lightgrey solid;
+    padding-top: 10px;
+    left: 25px;
+}
+
+#pic {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+}
+
+#bio {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 35px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+footer {
+    
+}
