@@ -231,7 +231,7 @@ footer {
 #middlecontainer1c {
     position: relative;
     border-top: 1px #cccccc solid;
-    height: 490px;
+    height: 590px;
     background: url("../images/gravel.png") fixed center;
     
 }
@@ -240,7 +240,7 @@ footer {
     position: relative;
     margin: 0 auto;
     width: 960px;
-    height: 400px;
+    height: 500px;
     background: #ffffff;
     top: 40px;
     border: 0.5px #dddddd solid;
@@ -257,4 +257,60 @@ footer {
     border-bottom: 2px lightgrey solid;
     padding-top: 10px;
     left: 25px;
+}
+
+#name {
+    position: absolute;
+    font-size: 13px;
+    left: 25px;
+    top: 105px;
+}
+
+#nametextbox {
+    position: absolute;
+    left: 25px;
+    top: 125px;
+    width: 910px;
+    height: 30px;
+}
+
+#email {
+    position: absolute;
+    left: 25px;
+    font-size: 13px;
+    top: 160px;
+}
+
+#emailtextbox {
+    position: absolute;
+    left: 25px;
+    top: 180px;
+    width: 910px;
+    height: 30px;
+}
+
+#message {
+    position: absolute;
+    left: 25px;
+    font-size: 13px;
+    top: 220px;
+}
+
+#messagetextbox {
+    position: absolute;
+    left: 25px;
+    top: 245px;
+    width: 910px;
+    height: 180px;
+}
+
+button {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 25px;
+    width: 100px;
+    top: 440px;
+    padding: 5px;
 }
