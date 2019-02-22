@@ -56,7 +56,7 @@ a {
     position: relative;
     background: lightgrey;
     border-top: 1px ##cccccc solid;
-    height: 600px;
+    height: 490px;
     /* background-image: url("/assets/images/gravel.png") fixed center; */
     
 }
@@ -65,7 +65,7 @@ a {
     position: relative;
     margin: 0 auto;
     width: 960px;
-    height: 420px;
+    height: 400px;
     background: #ffffff;
     top: 40px;
     border: 0.5px #dddddd solid;
@@ -99,5 +99,9 @@ a {
 }
 
 footer {
-    
+    color: lightgrey;
+    background: #666666;
+    text-align: center;
+    border-top: 7px #4aaaa5 solid;
+    padding: 32px;
 }
